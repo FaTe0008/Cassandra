@@ -10,3 +10,9 @@ start any application including chrome, youtube, gmail , maps etc.
 it is also a chatbot . You can ask it questions
 
 if you want to search up for anything just use the voice command , 'search for ' 
+
+INSTALLING CASSANDRA : 
+  
+  open command prompt and type the following command : 'git clone https://github.com/FaTe0008/Cassandra.git'
+  
+  the change the directory to the location where you installed 
