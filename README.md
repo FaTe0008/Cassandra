@@ -15,4 +15,4 @@ INSTALLING CASSANDRA :
   
   open command prompt and type the following command : 'git clone https://github.com/FaTe0008/Cassandra.git'
   
-  the change the directory to the location where you installed 
+  then change the directory to the location where you installed 
