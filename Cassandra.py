@@ -73,7 +73,7 @@ def joke():
 if __name__ == "__main__":
 
     
-        text = takevoice().lower() # Converting user query into lower case
+        text = takevoice().lower()# Converting user query into lower case
         # Logic for executing tasks based on query
         if "search" in text:  #if wikipedia found in the query then this block will be executed
             speak('Searching...')
@@ -145,6 +145,7 @@ if __name__ == "__main__":
         if "disconnect wifi" in text:
             os.system("netsh wlan disconnect")
             speak("wifi disconnected")
+  
 
 # Social Training ---->  
         if "joke" in text:
@@ -160,8 +161,8 @@ if __name__ == "__main__":
         if "are you male or female" in text:
             speak("I am a virtual assistant designed by Harshit, how can I help you?")
 
-        if "thanks" in text:
-            speak("Your Welcome")
+        if "thanks" or "thank you" in text:
+            speak("You're Welcome")
 
         if "i am fine" in text:
             speak("good to hear that, can I help you with something?")
